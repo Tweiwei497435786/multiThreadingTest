@@ -129,6 +129,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="NSThread" id="ln7-cT-SbS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mC-JW-VrE" userLabel="First Responder" sceneMemberID="firstResponder"/>

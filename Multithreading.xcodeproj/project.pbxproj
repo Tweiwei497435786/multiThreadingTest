@@ -17,6 +17,9 @@
 		D9A7AF621D11006300DE11C5 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A7AF611D11006300DE11C5 /* NSThreadViewController.m */; };
 		D9A7AF651D11018300DE11C5 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A7AF641D11018300DE11C5 /* NSOperationViewController.m */; };
 		D9A7AF681D1101E900DE11C5 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A7AF671D1101E900DE11C5 /* GCDViewController.m */; };
+		D9A7AF6B1D1147D100DE11C5 /* ThreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A7AF6A1D1147D100DE11C5 /* ThreadView.m */; };
+		D9D9A9E61D124BBE00080851 /* MultiThreadView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9A9E51D124BBE00080851 /* MultiThreadView.m */; };
+		D9D9A9E91D127AE600080851 /* MultiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D9A9E81D127AE600080851 /* MultiModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		D9A7AF641D11018300DE11C5 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 		D9A7AF661D1101E900DE11C5 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		D9A7AF671D1101E900DE11C5 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		D9A7AF691D1147D100DE11C5 /* ThreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadView.h; sourceTree = "<group>"; };
+		D9A7AF6A1D1147D100DE11C5 /* ThreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadView.m; sourceTree = "<group>"; };
+		D9D9A9E41D124BBE00080851 /* MultiThreadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiThreadView.h; sourceTree = "<group>"; };
+		D9D9A9E51D124BBE00080851 /* MultiThreadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiThreadView.m; sourceTree = "<group>"; };
+		D9D9A9E71D127AE600080851 /* MultiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiModel.h; sourceTree = "<group>"; };
+		D9D9A9E81D127AE600080851 /* MultiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,8 @@
 		D9A7AF2C1D10F1BA00DE11C5 /* Multithreading */ = {
 			isa = PBXGroup;
 			children = (
+				D9D9A9E41D124BBE00080851 /* MultiThreadView.h */,
+				D9D9A9E51D124BBE00080851 /* MultiThreadView.m */,
 				D9A7AF301D10F1BA00DE11C5 /* AppDelegate.h */,
 				D9A7AF311D10F1BA00DE11C5 /* AppDelegate.m */,
 				D9A7AF361D10F1BA00DE11C5 /* Main.storyboard */,
@@ -120,6 +131,10 @@
 				D9A7AF641D11018300DE11C5 /* NSOperationViewController.m */,
 				D9A7AF661D1101E900DE11C5 /* GCDViewController.h */,
 				D9A7AF671D1101E900DE11C5 /* GCDViewController.m */,
+				D9A7AF691D1147D100DE11C5 /* ThreadView.h */,
+				D9A7AF6A1D1147D100DE11C5 /* ThreadView.m */,
+				D9D9A9E71D127AE600080851 /* MultiModel.h */,
+				D9D9A9E81D127AE600080851 /* MultiModel.m */,
 			);
 			path = Multithreading;
 			sourceTree = "<group>";
@@ -281,9 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9A7AF681D1101E900DE11C5 /* GCDViewController.m in Sources */,
+				D9D9A9E61D124BBE00080851 /* MultiThreadView.m in Sources */,
 				D9A7AF651D11018300DE11C5 /* NSOperationViewController.m in Sources */,
+				D9D9A9E91D127AE600080851 /* MultiModel.m in Sources */,
 				D9A7AF321D10F1BA00DE11C5 /* AppDelegate.m in Sources */,
 				D9A7AF2F1D10F1BA00DE11C5 /* main.m in Sources */,
+				D9A7AF6B1D1147D100DE11C5 /* ThreadView.m in Sources */,
 				D9A7AF621D11006300DE11C5 /* NSThreadViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +528,7 @@
 				D9A7AF591D10F1BB00DE11C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A7AF5A1D10F1BB00DE11C5 /* Build configuration list for PBXNativeTarget "MultithreadingTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +537,7 @@
 				D9A7AF5C1D10F1BB00DE11C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9A7AF5D1D10F1BB00DE11C5 /* Build configuration list for PBXNativeTarget "MultithreadingUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +546,7 @@
 				D9A7AF5F1D10F1BB00DE11C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
